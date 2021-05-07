@@ -1,0 +1,88 @@
+/*Author Name: Laundry
+URL: https://www.domainname.com
+Developed By: Octteen Technology
+URL: https://octteen.com
+version: 1.0.0*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&family=Roboto&display=swap');
+/* google fonts */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* top-header css */
+.header-top{
+	border-bottom: 1px solid #cfdde8;
+}
+
+.top-header p {
+	font-family: 'Roboto', sans-serif;
+	color: #8f8f8f;
+	font-size: 15px;
+}
+.top-header a {
+	font-family: 'Roboto', sans-serif;
+	color: #8f8f8f;
+	font-size: 15px;
+}
+.top-header a:hover {
+	color: #68B3EA;
+}
+.top-header .tel-call{
+	color: #323232;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+.social-info li a{
+	color: #323232;
+	font-size: 14px;
+}
+
+/* navbar */
+.main-nav{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.main-nav .navbar-brand{
+	color: #4facf0;
+	font-size: 24px !important;
+	font-family: 'Poppins', sans-serif;
+}
+.main-nav .navbar-nav li a{
+	color: #2f353e;
+	font-family: 'Lato', sans-serif;
+}
+.customer-access li{
+	font-family: 'Lato', sans-serif;
+}
+.user a{
+	color: #2f353e;
+}
+.booking a{
+	background-color: #ffffff;
+  color: #1fb6ff;
+  border: 1px solid #1fb6ff;
+}
+.booking a:active{
+	background-color: #1fb6ff;
+  color: #ffffff;
+}
+.booking .btn:hover{
+	box-shadow: 0 1px 4px 4px rgb(197 197 197 / 50%) !important;
+	background-color: #e8f7ff;
+	color: #1fb6ff;
+  border: 1px solid #1fb6ff;
+} 
+
+
+
+
+
+
+@media (min-width: 1200px){
+	.header-container {
+			max-width: 1240px!important;
+	}
+}
