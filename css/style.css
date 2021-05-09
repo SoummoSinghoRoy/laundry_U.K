@@ -4,6 +4,8 @@ Developed By: Octteen Technology
 URL: https://octteen.com
 version: 1.0.0*/
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&family=Roboto&display=swap');
 /* google fonts */
 
@@ -43,6 +45,7 @@ version: 1.0.0*/
 /* navbar css*/
 .main-nav{
 	height: 50px;
+	padding-top: 1.8rem !important;
 }
 .main-nav .navbar-brand{
 	color: #4facf0;
@@ -86,54 +89,74 @@ version: 1.0.0*/
 /* header & navbar css end */
 
 /* hero section css */
-/* .jumbotron {
-	padding: 4rem 6.5rem;
-	margin-bottom: 2rem;
-	border-radius: .3rem;  
+.collection-hero{
+	position: absolute;
+	width: 100%;
+	background-image: url('../asset/hero/hero-1.jpg');
+	background-size: cover;
+	background-position: 170px;
 }
-.jumbotron h1{
-	font-size: 42px;
-	font-family: 'Lato', sans-serif;
+
+.collection-hero .collection-hero__graphic {
+	display: none;
+	position: absolute;
+	height: 668px;
+	width: 1000px;
+	right: 0;
+	top: -1px;
+	z-index: -1;
 }
-.jumbotron h2{
-	color: #8c939c;
-	font-family: 'Lato', sans-serif;
-	background-color: #ffffff;
+.collection-hero .collection-hero__content {
+	-webkit-filter: drop-shadow(5px -10px 10px rgba(0,0,0,0.5));
+	filter: drop-shadow(5px -10px 10px rgba(0,0,0,0.3));
 }
-.collection span{
-	color: #8c939c;
-	font-family: 'Lato', sans-serif;
-} */
-/* .collection-info{
-	background-color: #ffffff;
-	box-shadow: 5px 5px 5px rgba(153, 114, 114, 0.5);
-	width: 0;
-  height: 0;
-	border-top: 100% solid red;
-	border-right: 100px solid transparent;
-} */
-/* .collection-info {
-	box-shadow: 5px 5px 5px rgba(153, 114, 114, 0.5);
+.collection-hero .collection-hero__content .collection-hero__content-inner {
+	margin-top: -1px;
+	margin-left: -82px;
+	padding-top: 150px;
+	padding-bottom: 220px;
+	background: #fff;
 	max-height: 667px;
 	-webkit-clip-path: none;
 	clip-path: none;
 	width: 100%;
-} */
-
-
-
-
-
+}
+.wrap {
+	margin: 0 auto;
+	width: 90%;
+	margin-right: -14px;
+}
+.collection-hero .collection-hero__main {
+	max-width: 772px;
+	background: #ffffff;
+}
+.collection-hero h1 {
+	color: #2f353e;
+	font-size: 38px;
+	line-height: 1.27;
+	margin-bottom: 16px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+.collection-hero h2 {
+	color: #8c939c;
+	font-size: 21px;
+	line-height: 1.27;
+	margin-bottom: 16px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
 
 
 @media (min-width: 1200px){
 	.header-container {
-			max-width: 1240px!important;
+		max-width: 1240px!important;
 	}
 }
-/* @media screen and (min-width: 1240px){
-	.collection-info {
+
+@media screen and (min-width: 1240px){
+.collection-hero .collection-hero__content .collection-hero__content-inner {
     -webkit-clip-path: polygon(0 0, 71% 0, 55% 100%, 0% 100%);
     clip-path: polygon(0 0, 71% 0, 55% 100%, 0% 100%);
 	}
-} */
+}
