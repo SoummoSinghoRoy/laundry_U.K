@@ -8,12 +8,10 @@
 	background-position-x: 150px;
 	padding: 0px 0px -10px 0px;
 }
-.jumbotron {
+/* .jumbotron {
 	padding: 4rem 6.5rem;
 	margin-bottom: 2rem;
 	border-radius: .3rem;
-	height: 600px;
-	/* box-shadow: 5px 5px 5px rgba(153, 114, 114, 0.5)!important;  */
 }
 .jumbotron h1{
 	font-size: 42px;
@@ -23,7 +21,7 @@
 	color: #8c939c;
 	font-family: 'Lato', sans-serif;
 
-}
+} */
 .collection span{
 	color: #8c939c;
 	font-family: 'Lato', sans-serif;
