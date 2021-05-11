@@ -43,10 +43,6 @@ version: 1.0.0*/
 }
 
 /* navbar css*/
-/* .main-nav{
-	height: 50px;
-	padding-top: 1.8rem !important;
-} */
 .main-nav .navbar-brand{
 	color: #4facf0;
 	font-size: 24px !important;
@@ -95,11 +91,15 @@ version: 1.0.0*/
 	background-size: cover;
 	background-position-x: 270px;
 }
+.hero_custom_col {
+	-webkit-clip-path: polygon(0 0, 71% 0, 55% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
 .jumbotron {
-	padding-top: 67px;
+	padding-top: 60.5px;
 	padding-right: 70px;
 	padding-left: 55px;
-	padding-bottom: 67px;
+	padding-bottom: 60.5px;
 	margin-bottom: 2rem;
 	border-radius: .3rem;
 }
@@ -136,6 +136,28 @@ version: 1.0.0*/
 	background-color: #68B3EA !important;
 	box-shadow: 0 1px 4px 4px rgb(197 197 197 / 50%) !important;
 }
+.jumbotron_mobile h1 {
+	font-size: 26px;
+	font-weight: normal;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.27;
+	margin-bottom: 16px;
+	min-height: 4em;
+}
+.collection_mobile{
+	color: #8c939c;
+	font-family: 'Lato', sans-serif;
+}
+.collection_mobile i.fa-truck-moving{
+	font-size: 45px;
+	color: #68B3EA;
+}
+.dotted_mobile span {
+	display: inline-block;
+	-webkit-transform: rotateZ( 90deg );
+	transform: rotateZ( 90deg );
+	letter-spacing: 4px;
+}
 /* hero css end */
 
 
@@ -146,9 +168,4 @@ version: 1.0.0*/
 		max-width: 1240px!important;
 	}
 }
-@media screen and (min-width: 1240px){
-  .hero_custom_col {
-      -webkit-clip-path: polygon(0 0, 71% 0, 55% 100%, 0% 100%);
-      clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-    }
-  }
+
