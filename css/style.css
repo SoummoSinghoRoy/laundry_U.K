@@ -160,7 +160,31 @@ version: 1.0.0*/
 }
 /* hero css end */
 
-
+.process_col_one .process-heading-text h6.process-subheading{
+	color: #68B3EA;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+.process_col_one h2.process-heading{
+	color: #323232;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	font-size: 36px;
+}
+.process-content p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.process_btn:hover{
+	background-color: #68B3EA !important;
+	box-shadow: 0 1px 4px 4px rgb(197 197 197 / 50%) !important;
+}
+.process_col_one .process-img img{
+	position: relative;
+	top: 10px;
+	left: 30px;
+}
 
 /* media query */
 @media (min-width: 1200px){
@@ -168,4 +192,11 @@ version: 1.0.0*/
 		max-width: 1240px!important;
 	}
 }
-
+@media (max-width: 767.98px){
+	.process_col_one .process-heading-text h6.process-subheading{
+		font-size: 14px;
+	}
+	.process_col_one h2.process-heading{
+		font-size: 24px;
+	}
+}
