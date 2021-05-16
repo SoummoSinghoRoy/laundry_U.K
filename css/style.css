@@ -213,7 +213,7 @@ version: 1.0.0*/
 }
 .process_col_two .card-body{
 	position: relative;
-	right: 35px;
+	right: 64px;
 	background-color: #fff;
 	width: 435px;
 	height: 435px;
@@ -257,6 +257,73 @@ version: 1.0.0*/
 	font-weight: 400;
 	font-size: 18px;
 }
+.process_col_two .carousel-item{
+	transition: none;
+	animation: fadeIn ease 17s;
+  -webkit-animation: fadeIn ease 17s;
+	animation: fadeOut ease 14s;
+  -webkit-animation: fadeOut ease 14s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+.carousel-numbers li{
+	cursor: pointer !important;
+	text-indent: 0 !important;
+	margin: 0 2px !important;
+	width: 30px !important;
+	height: 30px !important;
+	border: none !important;
+	border-radius: 100% !important;
+	line-height: 30px !important;
+	color: #fff !important;
+	background-color: #999 !important;
+	transition: all 0.25s ease !important;
+}
+.carousel-numbers li:hover{
+	margin: 0 2px !important;
+	width: 30px !important;
+	height: 30px !important;
+	background-color: #337ab7 !important;
+}
+.carousel-numbers li:active{
+	margin: 0 2px !important;
+	width: 30px !important;
+	height: 30px !important;
+	background-color: #337ab7 !important;
+}
+/* .process_col_two .carousel-indicators [data-bs-target] {
+	background-color: #68B3EA;
+} */
 
 /* media query */
 @media (min-width: 1200px){
