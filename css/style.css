@@ -296,30 +296,29 @@ version: 1.0.0*/
     opacity:0;
   }
 }
+.carousel-numbers{
+	top: 450px;
+}
 .carousel-numbers li{
 	cursor: pointer !important;
 	text-indent: 0 !important;
 	margin: 0 2px !important;
-	width: 30px !important;
-	height: 30px !important;
-	border: none !important;
+	width: 55px !important;
+	height: 55px !important;
+	border: 4px solid #68B3EA !important;
 	border-radius: 100% !important;
-	line-height: 30px !important;
-	color: #fff !important;
-	background-color: #999 !important;
+	color: #68B3EA !important;
 	transition: all 0.25s ease !important;
 }
 .carousel-numbers li:hover{
 	margin: 0 2px !important;
-	width: 30px !important;
-	height: 30px !important;
-	background-color: #337ab7 !important;
+	width: 55px !important;
+	height: 55px !important;
 }
 .carousel-numbers li:active{
 	margin: 0 2px !important;
-	width: 30px !important;
-	height: 30px !important;
-	background-color: #337ab7 !important;
+	width: 55px !important;
+	height: 55px !important;
 }
 /* .process_col_two .carousel-indicators [data-bs-target] {
 	background-color: #68B3EA;
