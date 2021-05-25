@@ -321,6 +321,68 @@ version: 1.0.0*/
 	height: 55px !important;
 }
 /* process section end */
+.service-heading{
+	color: #323232;
+	font-size: 36px;
+}
+.service-subheading{
+	color: #323232;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+.service-card-header{
+	padding: 0 !important;
+	background: none !important;
+	border-bottom: none !important;
+}
+.service-card-header .service-card-header-icon{
+	margin: -58px auto 16px auto;
+	border-radius: 100%;
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #f3fbff;
+  box-shadow: 0 0 3px 0 rgb(197 197 197 / 53%);
+}
+.service-card-body .service-card-title{
+	font-size: 20px;
+	font-weight: 500;
+	line-height: normal;
+}
+.service-card-body .service-card-text{
+	font-size: 14px;
+	color: #8c939c;
+	line-height: normal;
+	height: 51px;
+}
+.service-card-body .service-card-mini-text{
+	font-size: 10px;
+  color: #8c939c;
+}
+/* .service-card-body .service-card-pricing{
+	font-size: 48px;
+	line-height: 1;
+	color: #68B3EA;
+	font-weight: 600;
+} */
+.service-card-body .service-card-text-two{
+	font-size: 14px;
+}
+
+.service-card-pricing{
+	font-size: 48px;
+	line-height: 1;
+	color: #68B3EA;
+	font-weight: 600;
+}
+.service-card-pricing .serice-price__currency {
+	font-size: 32px;
+}
+.service-card-pricing .serice-price__decimal{
+	font-size: 32px;
+}
 
 /* media query */
 @media (min-width: 1200px){
@@ -422,5 +484,11 @@ version: 1.0.0*/
 		margin: 0 2px !important;
 		width: 60px !important;
 		height: 32px !important;
+	}
+	.service-heading{
+		font-size: 32px;
+	}
+	.service-subheading{
+		font-size: 20px;
 	}
 }
