@@ -326,9 +326,14 @@ version: 1.0.0*/
 	font-size: 36px;
 }
 .service-subheading{
-	color: #323232;
+	color: #8c939c;
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
+}
+.service-card{
+	box-shadow: 0 1px 5px 0 rgb(197 197 197 / 50%);
+  border: 1px solid rgba(220,225,229,0.2);
+	height: 347px;
 }
 .service-card-header{
 	padding: 0 !important;
@@ -361,32 +366,62 @@ version: 1.0.0*/
 	font-size: 10px;
   color: #8c939c;
 }
-/* .service-card-body .service-card-pricing{
-	font-size: 48px;
-	line-height: 1;
-	color: #68B3EA;
-	font-weight: 600;
-} */
 .service-card-body .service-card-text-two{
 	font-size: 14px;
 }
-
 .service-card-pricing{
 	font-size: 48px;
 	line-height: 1;
 	color: #68B3EA;
 	font-weight: 600;
 }
-.service-card-pricing .serice-price__currency {
+.service-card-pricing .service-price__currency {
 	font-size: 32px;
 }
-.service-card-pricing .serice-price__decimal{
+.service-card-pricing .service-price__decimal{
 	font-size: 32px;
 }
-
-/* media query */
+.service-card-footer{
+	font-size: 13px;
+	position: absolute;
+	left: -1px;
+	bottom: 18px;
+	padding: 15px 30px 6px 15px;
+	background: #ffce54 !important;
+	font-size: 13px;
+	color: #fff;
+	border-bottom-left-radius: 5px;
+	text-transform: uppercase;
+}
+.service-card-footer::before{
+	height: 12px;
+	width: 220px;
+	content: '';
+	position: absolute;
+	left: 0px;
+	bottom: 33px;
+	background: #fff;
+	z-index: 3;
+	border-bottom-left-radius: 10px;
+}
+.service-card-footer::after{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	content: '';
+	right: -20px;
+	bottom: 2px;
+	background: #fff;
+	-webkit-transform: rotateZ(45deg);
+	transform: rotateZ(45deg);
+	z-index: 3;
+}
+.service-carousel .card{
+	top: 58px;
+}
+/* Responsive media query */
 @media (min-width: 1200px){
-	.header-container {
+	.custom-fluid-container {
 		max-width: 1240px!important;
 	}
 }
@@ -402,7 +437,6 @@ version: 1.0.0*/
 	}
 	.slider-step{
 		padding: 33px 0 0;
-    /* text-align: center; */
 	}
 	.process_col_two .card-body{
 		position: relative;
@@ -489,6 +523,9 @@ version: 1.0.0*/
 		font-size: 32px;
 	}
 	.service-subheading{
-		font-size: 20px;
+		font-size: 18px;
+	}
+	.service-carousel .carousel-inner{
+		height: 400px !important;
 	}
 }
