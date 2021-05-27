@@ -55,7 +55,7 @@
 		<!-- top-header-end -->
 		<!-- navbar -->
 		<nav class="navbar navbar-expand-lg main-nav">
-			<div class="container">
+			<div class="container custom-fluid-container">
 				<a class="navbar-brand typo-logo" href="#">Laundry U.K</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -344,6 +344,11 @@
 					</div>
 				</div>
 			</div>
+			<div class="row service-row-three">
+				<div class="d-grid col-3 mx-auto">
+					<a class="btn btn-info text-white px-4 process_btn" href="#" role="button">VIEW ALL PRICES</a>
+				</div>
+			</div>
 		</div>
 		<!-- service section mobile screen -->
 		<div class="container mt-5 d-block d-lg-none d-md-none d-sm-block">
@@ -356,11 +361,11 @@
 			<div class="row">
 				<div class="col">
 					<div id="carouselExampleIndicators" class="carousel slide service-carousel" data-bs-ride="carousel">
-						<div class="carousel-indicators">
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-						</div>
+						<ol class="carousel-indicators d-flex justify-content-center carousel-numbers gap-2">
+							<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active fs-2 text-center"></li>
+							<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="fs-2 text-center"></li>
+							<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="fs-2 text-center"></li>
+						</ol>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<div class="card text-center service-card">
@@ -380,7 +385,7 @@
 										</div>
 										<p class="card-text service-card-text-two">per load of 6 kg</p>
 									</div>
-									<div class="service-card-footer">
+									<div class="card-footer service-card-footer">
 										<p class="mb-0 text-start"><i class="fas fa-check-circle"></i> BEST PRICE <strong class="fst-italic">GUARANTEE</strong></p>
 									</div>
 								</div>
@@ -403,7 +408,7 @@
 										</div>
 										<p class="card-text service-card-text-two">per item</p>
 									</div>
-									<div class="service-card-footer">
+									<div class="card-footer service-card-footer">
 										<p class="mb-0 text-start"><i class="fas fa-check-circle"></i> BEST PRICE <strong class="fst-italic">GUARANTEE</strong></p>
 									</div>
 								</div>
@@ -426,7 +431,7 @@
 										</div>
 										<p class="card-text service-card-text-two">per item</p>
 									</div>
-									<div class="service-card-footer">
+									<div class="card-footer service-card-footer">
 										<p class="mb-0 text-start"><i class="fas fa-check-circle"></i> BEST PRICE <strong class="fst-italic">GUARANTEE</strong></p>
 									</div>
 								</div>

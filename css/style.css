@@ -348,7 +348,7 @@ version: 1.0.0*/
 	line-height: 120px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #f3fbff;
+	background: #e1f2ff;
   box-shadow: 0 0 3px 0 rgb(197 197 197 / 53%);
 }
 .service-card-body .service-card-title{
@@ -405,10 +405,10 @@ version: 1.0.0*/
 	border-bottom-left-radius: 10px;
 }
 .service-card-footer::after{
-	position: absolute;
 	height: 30px;
 	width: 30px;
 	content: '';
+	position: absolute;
 	right: -20px;
 	bottom: 2px;
 	background: #fff;
@@ -523,9 +523,34 @@ version: 1.0.0*/
 		font-size: 32px;
 	}
 	.service-subheading{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.service-carousel .carousel-inner{
 		height: 400px !important;
+		border-bottom: 1px solid rgba(0,0,0,.125);
+	}
+	.service-carousel .carousel-numbers{
+		top: 430px;
+	}
+	.service-carousel .carousel-numbers li{
+		cursor: pointer !important;
+		text-indent: 0 !important;
+		margin: 0 2px !important;
+		width: 5px !important;
+		height: 5px !important;
+		border: 4px solid #68B3EA !important;
+		border-radius: 100% !important;
+		color: #68B3EA !important;
+		transition: all 0.25s ease !important;
+	}
+	.service-carousel .carousel-numbers li:hover{
+		margin: 0 2px !important;
+		width: 5px !important;
+		height: 5px !important;
+	}
+	.service-carousel .carousel-numbers li:active{
+		margin: 0 2px !important;
+		width: 5px !important;
+		height: 5px !important;
 	}
 }
