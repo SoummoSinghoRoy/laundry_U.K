@@ -161,7 +161,7 @@ version: 1.0.0*/
 /* hero css end */
 .process-services-section{
 	width: 100%;
-	background-image: url('../asset/images/bg-wrapper-1.png');
+	background-image: url('../asset/extra-img/bg-wrapper-1.png');
 	background-repeat: no-repeat;
 	background-size: inherit;
 	background-position: right 0;
@@ -416,10 +416,61 @@ version: 1.0.0*/
 	transform: rotateZ(45deg);
 	z-index: 3;
 }
+.service-container{
+	background: #f8f8f8;
+}
 .service-carousel .card{
 	top: 58px;
 }
-/* Responsive media query */
+.service-price-btn{
+	font-family: 'Lato', sans-serif;
+}
+.service-price-btn:hover{
+	background-color: #68B3EA !important;
+	box-shadow: 0 1px 4px 4px rgb(197 197 197 / 50%) !important;
+}
+.service-price-btn .price-btn i{
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.service-price-btn:hover .price-btn i{
+	-webkit-transform: rotateZ(20deg);
+	transform: rotateZ(20deg);
+}
+.process-services-section{
+	border-bottom: 1px solid #68B3EA;
+}
+/* service section end */
+.delivery-row-one_col h2{
+	font-size: 36px;
+  line-height: 43px;
+	font-family: 'Lato', sans-serif;
+	color: #2f353e !important;
+}
+.delivery-row-one_col h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+  line-height: 24px;
+	color: #2f353e !important;
+
+}
+.contactless-card{
+	border: none !important;
+}
+.contactless-card .card-title{
+	color: #68B3EA;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+.contactless-card .card-text{
+	color: #2f353e !important;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+/* delivery section end */
+/** Responsive media query **/
 @media (min-width: 1200px){
 	.custom-fluid-container {
 		max-width: 1240px!important;
@@ -523,7 +574,11 @@ version: 1.0.0*/
 		font-size: 32px;
 	}
 	.service-subheading{
-		font-size: 16px;
+		font-size: 17px;
+	}
+	.service-card-footer{
+		padding: 15px 30px 6px 20px !important;
+
 	}
 	.service-carousel .carousel-inner{
 		height: 400px !important;
@@ -552,5 +607,11 @@ version: 1.0.0*/
 		margin: 0 2px !important;
 		width: 5px !important;
 		height: 5px !important;
+	}
+	.process-services-section{
+		border-bottom: none !important;
+	}
+	.delivery-row-one_col h2{
+		font-size: 34px;
 	}
 }
