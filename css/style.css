@@ -470,6 +470,33 @@ version: 1.0.0*/
 	line-height: 20px;
 }
 /* delivery section end */
+.trustworthy-row-one h2{
+	color: #2f353e;
+	font-family: 'Poppins',sans-serif !important;
+}
+.trust-worthy-nav .tabs-nav-item .nav-link{
+	-webkit-transition: all .2s linear !important;
+	transition: all .2s linear !important;
+	padding: 29px 100px !important;
+	font-size: 20px !important;
+	line-height: 30px !important;
+	-webkit-box-shadow: 0 19px 40px rgb(157 174 185 / 0%) !important;
+	box-shadow: 0 19px 40px rgb(157 174 185 / 0%) !important;
+	font-family: 'Poppins',sans-serif !important;
+	font-weight: 600 !important;
+	color: #323232;
+}
+.trust-worthy-nav li a.active{
+	background: #68B3EA !important;
+	color: #fff !important;
+}
+.approach-tab-col-one h2{
+	font-size: 28px;
+	line-height: 38px;
+	font-family: Poppins,sans-serif;
+	color: #323232;
+	font-weight: 600;
+}
 /** Responsive media query **/
 @media (min-width: 1200px){
 	.custom-fluid-container {
@@ -538,7 +565,6 @@ version: 1.0.0*/
 		font-weight: 600;
 		font-family: 'Poppins', sans-serif;
 		font-size: 20px;
-	
 	}
 	.process_col_two .card-body .short_text{
 		font-family: 'Roboto', sans-serif;
@@ -613,5 +639,13 @@ version: 1.0.0*/
 	}
 	.delivery-row-one_col h2{
 		font-size: 34px;
+	}
+	.trustworthy-row-one h2{
+		font-size: 24px;
+	}
+	.trust-worthy-nav .tabs-nav-item .nav-link{
+		padding: 16px 75px !important;
+		font-size: 16px !important;
+		line-height: 22px !important;
 	}
 }
