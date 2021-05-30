@@ -497,6 +497,23 @@ version: 1.0.0*/
 	color: #323232;
 	font-weight: 600;
 }
+.video-modal .modal-header{
+	border-bottom: none !important;
+}
+.video-modal .modal-header .btn-close{
+	background: none !important;
+	font-size: 22px;
+	color: whitesmoke !important;
+}
+/* .video-modal .modal-header .btn-close:hover{
+	color: whitesmoke;
+} */
+.video-modal .modal-content{
+	/* width: 571px !important;
+	height: 325px !important; */
+	border: none !important;
+	background: none !important;
+}
 /** Responsive media query **/
 @media (min-width: 1200px){
 	.custom-fluid-container {
@@ -604,7 +621,6 @@ version: 1.0.0*/
 	}
 	.service-card-footer{
 		padding: 15px 30px 6px 20px !important;
-
 	}
 	.service-carousel .carousel-inner{
 		height: 400px !important;
@@ -647,5 +663,12 @@ version: 1.0.0*/
 		padding: 16px 75px !important;
 		font-size: 16px !important;
 		line-height: 22px !important;
+	}
+	.video-modal .modal-body iframe{
+		width: 342px;
+		height: 193px;
+	}
+	.video-modal .modal-dialog{
+		top: 165px;
 	}
 }
