@@ -568,8 +568,6 @@ version: 1.0.0*/
 .feature-card .quality .fa-award, .cleaner .fa-vest-patches, .happiness .fa-thumbs-up{
 	font-size: 39px;
 	color: #68B3EA;
-}
-.quality .fa-award, .cleaner .fa-vest-patches, .happiness .fa-thumbs-up{
 	width: 78px;
 	height: 78px;
 	background-color: #ffffff;
@@ -583,6 +581,34 @@ version: 1.0.0*/
 	font-family: 'Poppins', sans-serif;
 	color: #323232;
 }
+.feature-card .card-title::after{
+	display:block;
+  content: '';
+  border-bottom: solid 3px #68B3EA; 
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.feature-card .card-title:hover::after { 
+	transform: scaleX(1); 
+}
+.feature-card  .card-title-one{
+	width: 125px !important;
+}
+.feature-card  .card-title-one:hover{
+	color: #68B3EA;
+}
+.feature-card  .card-title-two{
+	width: 188px !important;
+}
+.feature-card  .card-title-two:hover{
+	color: #68B3EA;
+}
+.feature-card  .card-title-three{
+	width: 223px !important;
+}
+.feature-card  .card-title-three:hover{
+	color: #68B3EA;
+}
 .feature-card .card-text{
 	color: #7b7b7b;
 }
@@ -594,33 +620,175 @@ version: 1.0.0*/
 	border: none !important;
 	cursor: pointer;
 }
-.feature-card .card-title::after{
+.ques_ans_heading{
+	font-size: 28px !important;
+	line-height: 38px;
+	font-family: 'Poppins',sans-serif !important;
+	color: #323232 !important;
+	font-weight: 600 !important;
+}
+.ques_ans_accordion .accordion-button:not(.collapsed) {
+	font-size: 16px !important;
+	line-height: 26px !important;
+	font-weight: 600 !important;
+	font-family: 'Poppins',sans-serif !important;
+	color: #323232 !important;
+	-webkit-transition: color .2s !important;
+	transition: color .2s !important;
+	background: none !important;
+	box-shadow: none !important;
+}
+.ques_ans_accordion .accordion-button {
+	font-size: 16px !important;
+	line-height: 26px !important;
+	font-weight: 600 !important;
+	font-family: 'Poppins',sans-serif !important;
+	color: #323232 !important;
+	-webkit-transition: color .2s !important;
+	transition: color .2s !important;
+	background: none !important;
+}
+.ques_ans_accordion .accordion-button:hover{
+	color: #68B3EA !important;
+}
+.ques_ans_accordion .accordion-button:focus{
+	border-color: #fff !important;
+	box-shadow: none !important;
+}
+.ques_ans_accordion .accordion-button::after{
+	background: url('../asset/images/accordion_open.svg') !important;
+	background-size: 60% !important;
+	background-repeat: no-repeat !important;
+}
+.ques_ans_accordion .accordion-button:not(.collapsed)::after {
+	background: url('../asset/images/accordion_close.svg') !important;
+	background-size: 60% !important;
+	background-repeat: no-repeat !important;
+}
+.ques_ans_accordion .accordion-body span{
+	color: #7b7b7b !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 16px !important;
+	line-height: 1;
+}
+.choose_us h3{
+	font-size: 28px;
+	line-height: 38px;
+	font-family: 'Poppins',sans-serif;
+	color: #323232;
+	font-weight: 600;
+}
+.choose_us p{
+	color: #7b7b7b !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 16px !important;
+	line-height: 1.8;
+}
+.values_experience h3{
+	font-size: 24px;
+	line-height: 38px;
+	font-family: 'Poppins',sans-serif;
+	color: #323232;
+	font-weight: 600;
+}
+.values_experience p{
+	color: #7b7b7b !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 16px !important;
+	line-height: 1.8;
+}
+.choose_feature-card .experienced .fa-lightbulb, .price .fa-tags, .convenience .fa-skiing-nordic, .quality .fa-award, .ex_delivery .fa-shipping-fast, .order_update .fa-clipboard-check{
+	font-size: 39px;
+	color: #68B3EA;
+	width: 78px;
+	height: 78px;
+	background-color: #ffffff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 10px 20px rgb(0 0 0 / 6%);
+	box-shadow: 0 10px 20px rgb(0 0 0 / 6%);
+	line-height: 2;
+}
+.choose_feature-card .card-title{
+	font-family: 'Poppins', sans-serif;
+	color: #323232;
+	font-size: 17px;
+}
+.choose_feature-card .card-title::after{
 	display:block;
   content: '';
   border-bottom: solid 3px #68B3EA; 
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
 }
-.feature-card .card-title:hover::after { 
+.choose_feature-card .card-title:hover::after { 
 	transform: scaleX(1); 
 }
-.card-title-one{
-	width: 125px !important;
+.choose_feature-card .card-title-one{
+	width: 214px !important;
 }
-.card-title-two{
-	width: 188px !important;
-}
-.card-title-three{
-	width: 223px !important;
-}
-.card-title-one:hover{
+.choose_feature-card .card-title-one:hover{
 	color: #68B3EA;
 }
-.card-title-two:hover{
+.choose_feature-card .card-title-two{
+	width: 156px !important;
+}
+.choose_feature-card .card-title-two:hover{
 	color: #68B3EA;
 }
-.card-title-three:hover{
+.choose_feature-card .card-title-three{
+	width: 115px !important;
+}
+.choose_feature-card .card-title-three:hover{
 	color: #68B3EA;
+}
+.choose_feature-card .card-title-four{
+	width: 63px !important;
+}
+.choose_feature-card .card-title-four:hover{
+	color: #68B3EA;
+}
+.choose_feature-card .card-title-five{
+	width: 140px !important;
+}
+.choose_feature-card .card-title-five:hover{
+	color: #68B3EA;
+}
+.choose_feature-card .card-title-six{
+	width: 182px !important;
+}
+.choose_feature-card .card-title-six:hover{
+	color: #68B3EA;
+}
+.choose_feature-card .card-text{
+	color: #7b7b7b;
+}
+.choose_feature-card .card-body{
+	padding-right: 0px;
+	padding-left: 12px;
+}
+.choose_feature-card{
+	border: none !important;
+	cursor: pointer;
+}
+.trustworthy-promise-service{
+	width: 100%;
+	background-image: url('../asset/extra-img/bg-wrapper-3.png');
+	background-repeat: no-repeat;
+	background-size: inherit;
+	-webkit-animation: animatedBgRight 15s ease-in-out infinite;
+	animation: animatedBgRight 15s ease-in-out infinite;
+}
+@keyframes animatedBgRight {
+  50%{
+		background-position: right 70px;
+	}
+	100%{
+		background-position: right 0px;
+	}
 }
 /** Responsive media query **/
 @media (min-width: 1200px){
@@ -768,7 +936,6 @@ version: 1.0.0*/
 		font-size: 24px;
 	}
 	.trust-worthy-nav .tabs-nav-item .nav-link{
-		/* padding: 16px 75px !important; */
 		font-size: 16px !important;
 		line-height: 22px !important;
 	}
