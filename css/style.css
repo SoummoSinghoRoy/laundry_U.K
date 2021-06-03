@@ -148,7 +148,7 @@ version: 1.0.0*/
 	color: #8c939c;
 	font-family: 'Lato', sans-serif;
 }
-.collection_mobile i.fa-truck-moving{
+.collection_mobile i.fa-shipping-fast{
 	font-size: 45px;
 	color: #68B3EA;
 }
@@ -776,19 +776,62 @@ version: 1.0.0*/
 }
 .trustworthy-promise-service{
 	width: 100%;
-	background-image: url('../asset/extra-img/bg-wrapper-3.png');
+	background-image: url('../asset/extra-img/bg-wrapper-4.png');
 	background-repeat: no-repeat;
+	background-position: top left;
 	background-size: inherit;
-	-webkit-animation: animatedBgRight 15s ease-in-out infinite;
-	animation: animatedBgRight 15s ease-in-out infinite;
+	-webkit-animation: move-topleft-top-bottom 10s ease-in-out infinite;
+	animation: move-topleft-top-bottom 10s ease-in-out infinite;
 }
-@keyframes animatedBgRight {
-  50%{
-		background-position: right 70px;
+@keyframes move-topleft-top-bottom {
+	50% {
+		background-position: -50px -50px;
 	}
-	100%{
-		background-position: right 0px;
+
+	100% {
+		background-position: 0 0;
 	}
+}
+.promise-row_one_col h2{
+	font-size: 36px;
+  line-height: 43px;
+	font-family: 'Lato', sans-serif;
+	color: #2f353e !important;
+}
+.promise-row_one_col h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+  line-height: 24px;
+	color: #2f353e !important;
+
+}
+.promise_feature-card .happy_guarantee .fa-gratipay, .fast_res .fa-clock, .clean_green .fa-pagelines, .high_qua .fa-star{
+	font-size: 39px;
+	color: #aec5d4;
+	font-weight: 400;
+	line-height: 2;
+}
+.promise_feature-card .card-title{
+	font-family: 'Poppins', sans-serif;
+	color: #68B3EA;
+	font-size: 17px;
+}
+.promise_feature-card .card-text{
+	color: #7b7b7b;
+}
+.promise_feature-card .card-body{
+	padding-right: 0px;
+	padding-left: 12px;
+}
+.promise_feature-card{
+	border: none !important;
+	background: none !important;
+}
+.promise-section {
+	width: 100%;
+	background-image: url('../asset/images/bg-color_shape.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 /** Responsive media query **/
 @media (min-width: 1200px){
@@ -966,5 +1009,19 @@ version: 1.0.0*/
 	.circle-player{
 		position: relative;
 		bottom: 125px;
+	}
+	.trustworthy-promise-service{
+		background-image: none;
+	}
+	.promise-section{
+		width: 100%;
+		margin: 50px 0px 20px 0px;
+		border-top: 1px solid #68B3EA;
+	}
+	.promise-row_one_col h2{
+		font-size: 34px;
+	}
+	.promise-row_one_col h3{
+		font-size: 18px;
 	}
 }
