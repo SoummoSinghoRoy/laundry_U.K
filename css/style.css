@@ -855,6 +855,9 @@ a.ctoa-btn{
 	background-color: #68B3EA;
 }
 /* ctoa/call_to_action section end */
+/* .laundry-footer{
+	background-color: #F3FBFF;
+} */
 .footer-col_one .navbar-brand{
 	color: #4facf0;
 	font-size: 24px !important;
@@ -863,14 +866,14 @@ a.ctoa-btn{
 .footer-col_one p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: #e7e7e7;
+	color: #323232;
 }
 .footer-social-info li a{
-	color: #323232;
+	color: #f1f4f1;
 	font-size: 15px;
 }
 .footer-social-info li a>i{
-	background-color: #fff;
+	background-color: #4facf0;
 	width: 40px;
 	height: 40px;
 	transition: color .2s linear,background-color .2s linear;
@@ -886,11 +889,11 @@ a.ctoa-btn{
 .contact_info .list-group-item{
 	background: none !important;
 	border: none !important;
-	color: #e7e7e7;
+	color: #323232;
 	font-family: 'Roboto', sans-serif;
 }
 .contact_info .list-group-item a{
-	color: #e7e7e7;
+	color: #323232;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
@@ -898,7 +901,7 @@ a.ctoa-btn{
 	color: #68B3EA;
 }
 .contact_info .list-group-item i{
-	color: #dcf1ff;
+	color: #323232;
 } 
 .footer-col_three h2{
 	font-size: 21px;
@@ -909,7 +912,7 @@ a.ctoa-btn{
 .footer-col_three p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: #e7e7e7;
+	color: #323232;
 }
 .newsletter_form{
 	margin-left: 2px !important;
@@ -922,7 +925,7 @@ a.ctoa-btn{
 	font-size: 13px !important;
 }
 .newsletter_btn{
-	background: #4facf0 !important;
+	background-color: #4facf0 !important;
 	border-color: #4facf0!important;
 	font-family: 'Poppins', sans-serif !important;
 	font-weight: 600 !important;
@@ -935,8 +938,29 @@ a.ctoa-btn{
 .newsletter_btn_col{
 	padding-left: 2px !important;
 }
-.laundry-footer{
-	background-color: #313131;
+.sub-footer{
+background-color: #464646;
+}
+.sub-footer-col_one p{
+	color: #e7e7e7;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+.sub-footer-col_one a{
+	color: #68B3EA;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+.sub-footer-col_one a:hover{
+	color: #68B3EA;
+}
+.terms_privacy li a{
+	color: #e7e7e7;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+.terms_privacy li a:hover{
+	color: #68B3EA;
 }
 /** Responsive media query **/
 @media (min-width: 1200px){
