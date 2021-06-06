@@ -1262,4 +1262,7 @@ a.ctoa-btn{
 	.promise-row_one_col h3{
 		font-size: 18px;
 	}
+	.newsletter_form .form-control{
+		width: 85% !important;
+	}
 }
